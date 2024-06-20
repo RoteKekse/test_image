@@ -1,4 +1,4 @@
-FROM "gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:v1%2E3%2E1"
+FROM "gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:v1\.3\.1"
 USER root
 RUN apt-get update
 RUN apt-get -y install git
